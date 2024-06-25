@@ -5,3 +5,5 @@ dberenguer:
   dapr:
     state-store:
       name: state-redis
+    grpc:
+      port: 50001  # Dapr sidecar gRPC port, adjust as necessary
